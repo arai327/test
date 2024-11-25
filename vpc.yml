@@ -14,4 +14,4 @@ myInternetGateway:
     Properties:
       Tags:
       - Key: Name
-        Value: !Sub test-igw-01
+        Value: test-igw-01
