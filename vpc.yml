@@ -6,12 +6,12 @@ Resources:
       EnableDnsSupport: 'true'
       EnableDnsHostnames: 'true'
       Tags:
-       - Key: Name
-         Value: test-vpc-01
+      - Key: Name
+        Value: test-vpc-01
 
-myInternetGateway:
+  myInternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
       - Key: Name
-        Value: !Sub test-igw-01
+        Value: test-igw-01
