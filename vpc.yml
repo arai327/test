@@ -8,3 +8,10 @@ Resources:
       Tags:
        - Key: Name
          Value: test-vpc-01
+
+myInternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+      - Key: Name
+        Value: !Sub test-igw-01
