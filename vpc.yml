@@ -15,3 +15,11 @@ Resources:
       Tags:
       - Key: Name
         Value: test-igw-01
+
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId:
+        Ref: myVPC
+      InternetGatewayId:
+        Ref: myInternetGateway
